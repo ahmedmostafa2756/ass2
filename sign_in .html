@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="login.html" method="get" id="sign_up">
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email" placeholder="enter your email" required><br>
+        <label for="pass">pass:</label>
+        <input type="password" id="pass" name="pass" placeholder="enter your password"><br>
+        <fieldset>
+            <legend>gender:</legend>
+            <label for="gender">gender:</label>
+
+            <input type="radio" id="male" name="gender">
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">female</label><br>
+        </fieldset>
+
+        <label for="bio">bio:</label>
+        <textarea rows="40" cols="30" placeholder="write a summery of your self"></textarea>
+    </form>
+    <button type="submit" form="sign_up" value="Submit">Submit</button>
+                     <button type="reset" value="reset" form="sign_up" >reset</button>     
+            
+</body>
+
+</html>
